@@ -12,7 +12,7 @@ html {
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    background-color: #c9bd95;
+    background-image: url("donny2.jpeg");
   }
   
   .app {
@@ -28,21 +28,23 @@ html {
   
   header {
     width: 100%;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid #ebebeb;
+    padding: 20px;
+    border-bottom: 3px solid black;
+    font-family: 'Playfair Display', serif;
   }
   
   .quotes {
-    padding: 20px 50px;
+    padding: 50px 30px;
     min-height: 200px;
   }
   
   .quote-text {
-    padding-bottom: 20px;
+    padding-top: 25px;
     font-size: 25px;
     color: black;
+    text-align: center;
   }
   
   .controls {
@@ -64,7 +66,7 @@ html {
   }
   
   .twitter {
-    background-color: #1da1f2;
+    background-color: #1d2bf2;
     text-decoration: none;
   }
   
@@ -73,7 +75,7 @@ html {
   }
   
   .new-quote {
-    background-color: #4A2B0F;
+    background-color: #e71717;
     margin-bottom: 15px;
   }
   
