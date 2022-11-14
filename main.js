@@ -17,6 +17,7 @@ async function getQuote() {
       }
       const json = await response.json();
       displayQuote(json.message);
+      setTweetButton(json.message);
     } catch {
       alert('Failed to fetch new quote');
     } finally {
@@ -31,3 +32,8 @@ async function getQuote() {
     const quoteText = document.querySelector('#js-quote-text');
     quoteText.textContent = quote;
   }
+
+  function setTweetButton(quote) {
+    twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote} - Donald Trump`);
+  }
+  getQuote();
