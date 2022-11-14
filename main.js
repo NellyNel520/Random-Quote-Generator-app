@@ -17,7 +17,7 @@ async function getQuote() {
       }
   
       const json = await response.json();
-      console.log(json.message);
+      displayQuote(json.message);
     } catch (err) {
       console.log(err)
       alert('Failed to fetch new quote');
