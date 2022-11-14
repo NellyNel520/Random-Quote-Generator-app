@@ -23,3 +23,8 @@ async function getQuote() {
       alert('Failed to fetch new quote');
     }
   }
+//code that displays the quote to the user is placed
+  function displayQuote(quote) {
+    const quoteText = document.querySelector('#js-quote-text');
+    quoteText.textContent = quote;
+  }
