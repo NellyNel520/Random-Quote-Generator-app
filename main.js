@@ -1,3 +1,4 @@
+const spinner = document.querySelector('#js-spinner');
 const newQuoteButton = document.querySelector('#js-new-quote');
 newQuoteButton.addEventListener('click', getQuote);
 const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
